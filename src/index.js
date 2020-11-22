@@ -3,9 +3,13 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import * as serviceWorker from './serviceWorker';
 import Checkout from './screens/Checkout/Checkout';
+import FoodOrderingApp from './FoodOrderingApp';
+import {BrowserRouter as Router} from "react-router-dom";
 
 ReactDOM.render(
-    <Checkout/>,
+    <Router>
+        <FoodOrderingApp />
+    </Router>,
     document.getElementById('root')
 );
 

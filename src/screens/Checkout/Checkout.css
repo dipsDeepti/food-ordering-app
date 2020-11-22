@@ -1,6 +1,18 @@
 .root {
     width: '100%',
   }
+  
+.MuiFormControl-root .dispNone {
+	display: none;
+}
+
+.MuiFormControl-root .dispBlock {
+	display: block;
+}
+
+.red {
+	color: red;
+}
   .button {
       margin-top: 1;
       margin-right: 1;
@@ -18,11 +30,33 @@
   }
 
   .left{
-    width: 70%;
+    width: 10%;
     float: left;
   }
 
   .right{
-    width: 30%;
+    width: 40%;
     float: left;
+  }
+
+  .MuiGridList-root{
+    display: 'flex';
+    flex-wrap: 'wrap';
+    justify-content: 'space-around';
+    overflow: 'hidden';
+  }
+
+  .MuiGridListTile-root{
+    flex-wrap: 'nowrap';
+    transform: 'translateZ(0)';
+  }
+
+  .state{
+    width:100px;
+  }
+  .MuiSelect-select.MuiSelect-select{
+    width: 170px;;
+  }
+  .MuiList-root{
+    height: 130px;
   }

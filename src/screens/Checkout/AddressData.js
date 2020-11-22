@@ -1,35 +1,47 @@
 const AddressData = [
     {
      id:1,
-      flatNo: '75',
+     flat_building_name: '75',
       locality : 'Worli',
       city: 'Mumbai',
-      State: "Maharashtra",
-      pinCode: "40018",
+      state: {
+        id :1,
+        state_name:"Maharashtra"
+      },
+      pincode: "40018",
     },
     {
       id:2,
-       flatNo: '75',
+      flat_building_name: '75',
        locality : 'Worli',
        city: 'Mumbai',
-       State: "Maharashtra",
-       pinCode: "40018",
+       state: {
+        id :2,
+        state_name:"Maharashtra"
+       },
+       pincode: "40018",
      },
      {
-      id:2,
-       flatNo: '75',
+      id:3,
+      flat_building_name: '75',
        locality : 'Worli',
        city: 'Mumbai',
-       State: "Maharashtra",
-       pinCode: "40018",
+       state: {
+        id :3,
+        state_name:"Maharashtra"
+       },
+       pincode: "40018",
      },
      {
-      id:2,
-       flatNo: '75',
+      id:4,
+      flat_building_name: '75',
        locality : 'Worli',
        city: 'Mumbai',
-       State: "Maharashtra",
-       pinCode: "40018",
+       state: {
+        id :3,
+        state_name:"Maharashtra"
+       },
+       pincode: "40018",
      }
      
     
